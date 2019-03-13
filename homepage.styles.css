@@ -1,5 +1,18 @@
 h1{
   font-family: cooper black;
-  color: green;
-  align-items: center;
+  color: chartreuse;
+  background-color: black;
+  
+}
+
+h2{
+  font-family: cursive;
+  font-size: 32;
+  color: inherit;
+}
+
+ul{
+  font-family: cursive;
+  font-size: 26;
+  color: inherit;
 }
