@@ -1,12 +1,37 @@
 h1{
-  font-family: cooper black;
-  color: green;
+  font-family: sans-serif;
+  color: #6610f2;
   align-items: center;
 }
 
+nav{
+  font-family:sans-serif;
+  color: #6610f2;
+}
+
+/*  WHY IS THIS NOT WORKING?!? */
+button{
+  background-color: #6610f2;
+  cursor: pointer;
+}
+
 h2{
-  font-family: cooper black;
-  color: silver;
+  font-family: sans-serif;
+  color: gray;
   font-size: 12;
-  align-items: center;
+  text-align: center;
+}
+
+div{
+  text-align: center;
+}
+
+img{
+  display: block;
+  padding: 20px
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 150px;
+  height: 200px;
+  width: 60%;
 }
