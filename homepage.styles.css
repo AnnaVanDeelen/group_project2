@@ -8,16 +8,27 @@ h1{
   background-color: black;
   }
 
+  nav{
+    font-family:sans-serif;
+    color: #6610f2;
+  }
+
+  /*  WHY IS THIS NOT WORKING?!? */
+  button{
+    background-color: #6610f2;
+    cursor: pointer;
+  }
+
 h2{
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 2em;
   color: inherit;
 }
 
 /* I added the styling from the website we learn to make the enlarging of the options */
 
-ul{
-  font-family: cursive;
+div2{
+  font-family: sans-serif;
   font-size: 2em;
   list-style: none;
   padding: 0;
@@ -34,7 +45,7 @@ ul{
     margin-top: 14%;
   }
 
-  ul{
+  li{
     list-style: none;
     display: flex;
     }
@@ -50,7 +61,7 @@ ul{
   }
 
 p{
-  font-family: cursive;
+  font-family: sans-serif;
   font-size: 2em;
   color: inherit;
   text-align: center;
