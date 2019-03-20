@@ -1,11 +1,10 @@
 h1{
   font-family: cooper black;
   font-size: 4em;
-  color: chartreuse;
+  color: #6610f2;
   text-align: center;
-  margin-top: 20%;
-  margin-bottom: 20%;
-  background-color: black;
+  margin-top: 10%;
+  margin-bottom: 5%;
   }
 
   nav{
@@ -25,6 +24,19 @@ h2{
   color: inherit;
 }
 
+h5{
+  font-size: 3em;
+  font-style: bold;
+}
+
+img{
+  padding-bottom: 5%;
+}
+
+carousel-items{
+  shape-inside: ellipse();
+}
+
 /* I added the styling from the website we learn to make the enlarging of the options */
 
 div2{
@@ -37,28 +49,32 @@ div2{
   justify-content: space-evenly;
 }
 
-  li#lower{
-    margin-top: 7%;
-  }
+  ul{
 
-  li#lowest{
-    margin-top: 14%;
-  }
-
-  li{
-    list-style: none;
-    display: flex;
+    li#lower{
+      margin-top: 7%;
     }
 
-  li{
-    margin: 0 20px;
-    transition: 0.6s ease;
+    li#lowest{
+      margin-top: 14%;
+    }
+
+    li{
+      list-style: none;
+      display: flex;
+      }
+
+    li{
+      margin: 0 20px;
+      transition: 0.6s ease;
+    }
+
+    li:hover{
+      font-size: 1.2em;
+      transition: 0.6s ease;
+    }
   }
 
-  li:hover{
-    font-size: 1.2em;
-    transition: 0.6s ease;
-  }
 
 p{
   font-family: sans-serif;
